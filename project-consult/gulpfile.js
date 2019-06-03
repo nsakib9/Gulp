@@ -50,9 +50,9 @@ const fon = { in: source + "fonts/*",
 }
 
 //custom folder copy
-const fold = { in: source + "assets/*",
-    out: dist + "assets/",
-    watch: source + "assets/*"
+const fold = { in: source + "assets/css/*",
+    out: dist + "css/",
+    watch: source + "assets/css/*"
 }
 
 const nunjuck = { in: source + "pages/**/*.html",
