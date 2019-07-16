@@ -49,18 +49,11 @@ const fon = { in: source + "fonts/*",
     watch: source + "fonts/*"
 }
 
-<<<<<<< HEAD
 //copy custom css from scss to css folder
 //first !ignore it from scss folder and then copy it to dist/css folder
 const fold = { in: source + "assets/**/*.css",
     out: dist + "css/",
     watch: source + "assets/**/*.css*"
-=======
-//custom folder copy
-const fold = { in: source + "assets/css/*",
-    out: dist + "css/",
-    watch: source + "assets/css/*"
->>>>>>> 83c5da9d1ab7a1d95ed2af4fcddbeb643aba4b10
 }
 
 const nunjuck = { in: source + "pages/**/*.html",
